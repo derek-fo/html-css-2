@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tags de agrupamento</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+        }
+
+        header {
+            background-color: rgb(243, 217, 217);
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: rgb(136, 60, 60);
+            color: white;
+            padding: 3px;
+            box-shadow: 5px 3px 3px 1px rgba(0, 0, 0, 0.356);
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        article {
+            background-color: lightblue;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: lightgray;
+        }
+        
+        footer {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            }
+
+        footer > p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>SITE DE NOTICIAS</h1>
+        <nav>
+            <a href="">link 1</a>
+            <a href="">link 2</a>
+            <a href="">link 3</a>
+            <a href="">link 4</a>
+        </nav>
+    </header>
+    <main>
+        <section id='assuntos'>
+            <p>ESPORTES POLITICA TECNOLOGIA</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticia 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem veniam ut vero ipsa quo. Quod
+                    inventore, eaque corporis repudiandae mollitia explicabo praesentium odit consequatur, numquam id,
+                    quia nulla nobis excepturi.</p>
+                <aside>
+                    <p>noticia por bruno halpern</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por derek</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>tente abrir o site em diversos dispositivos ou simplesmente aumente e diminua o tamanho do navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="ex012/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="ex012/foto-m.png" type="image/png">
+        <img src="ex012/foto-g.png" alt="Imagem responsiva">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>reproduzir em html5</p>
+    <audio preload="metadata" autoplay controls>
+        <source  src="ex013/happy-mistake.mp3" type="audio/mp3">
+    </audio>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 5px;
+            background-color: #f0f0f0;
+            color: black;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            position: relative;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+        thead,
+        tfoot {
+            background-color: grey;
+            color: white;
+        }
+
+thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #333;
+            color: white;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: #c4c4c4;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>População dos Estados</caption>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">XXXXXXXXX</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">XXXXXXXXX</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">XXXXXXXXX</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">XXXXXXXXX</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">XXXXXXXXX</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th>Total de Habitantes</th>
+            <td class="num"><strong>XXXX</strong></td>
+        </tfoot>
+    </table>
+</body>
+
+</html>

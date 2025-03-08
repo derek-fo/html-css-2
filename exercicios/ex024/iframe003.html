@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 300px;
+            border: 2px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis culpa id laboriosam aut quam ducimus nostrum
+        maxime recusandae, repellendus ex accusantium quisquam minima earum cumque suscipit voluptatibus! At, dolore
+        necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolorum neque animi veniam
+        quisquam blanditiis, autem vel at dolore pariatur laudantium ullam? Itaque assumenda ipsum voluptates deserunt
+        earum natus consectetur.</p>
+    <ul>
+        <li> <a href="extras/pag01.html" target="frame">Primeira página</a> </li>
+        <li> <a href="extras/pag02.html" target="frame">Segunda página</a> </li>
+    </ul>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus cupiditate eligendi veritatis,
+        reprehenderit velit error, magnam, temporibus mollitia vel eveniet nostrum corrupti quis fugit. Cum
+        necessitatibus distinctio saepe hic deleniti? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Reiciendis cumque sapiente alias explicabo nostrum magnam, voluptas totam maiores dolorem temporibus adipisci
+        illo provident dolores itaque praesentium possimus, officia exercitationem quae!</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1>" frameborder="0">
+        <p>infelizmente seu navegador nao é compativel</p>
+    </iframe>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis culpa id laboriosam aut quam ducimus nostrum
+        maxime recusandae, repellendus ex accusantium quisquam minima earum cumque suscipit voluptatibus! At, dolore
+        necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolorum neque animi veniam
+        quisquam blanditiis, autem vel at dolore pariatur laudantium ullam? Itaque assumenda ipsum voluptates deserunt
+        earum natus consectetur.</p>
+
+</body>
+
+</html>
