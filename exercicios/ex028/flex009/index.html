@@ -10,12 +10,15 @@
         div.conteiner {
             background-color: salmon;
             display: flex;
+            flex-flow: row nowrap;
         }
 
         div.item {
             background-color: lightblue;
             border: 1px solid black;
             text-align: center;
+            /* flex-basis: auto; */
+            flex-basis: 100px;
         }
     </style>
 </head>
@@ -23,11 +26,11 @@
 <body>
     <div class="conteiner">
     <div class="item">A</div>
-    <div class="item">B</div>
+    <div class="item">Grande</div>
     <div class="item">C</div>
-    <div class="item">D</div>
+    <div class="item">Um pouco maior</div>
     <div class="item">E</div>
-    <div class="item">F</div>
+    <div class="item">Maior que todos os outros itens</div>
     <div class="item">G</div>
 </div>
 </body>
